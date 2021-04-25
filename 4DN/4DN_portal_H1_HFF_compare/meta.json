@@ -1,0 +1,7 @@
+{
+    "title":"4DN portal H1 and HFF comparison",
+    "Caption":"This example compares SPIN states between H1 and HFF. Data with the same target are rendered using the same color. Especially, the highlight regions represent the Lamina SPIN states in HFF. As you can see from the Hi-C matrix, Lamina SPIN states on the left and right are mostly conserved between H1 and HFF. However, the Lamina SPIN states in the middle are HFF specific. These regions show high lamina TSA-seq /DamID in HFF but moderate TSA-seq/DamID in H1. In H1, these highlighted regions also show mid replication timing.",
+    "URL":"http://vis.nucleome.org/v1/main.html?config=/share/YELmumIgAojVlFCGQWaBPuhvHWwQlfRY",
+    "session":"nucle_4DN_session_H1_HFF_comp.json",
+    "Thumbnail":"nucle_4DN_session_H1_HFF_comp.jpg"
+}

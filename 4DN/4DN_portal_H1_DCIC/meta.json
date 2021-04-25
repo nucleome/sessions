@@ -1,0 +1,7 @@
+{
+    "title":"4DN portal put DCIC visualization tool side-by-side",
+    "Caption":"A custom webpage window is opened on the right. In this example, we open the DCIC visualization tool in this panel. Users can then compare the Nucleome Browser view side-by-side with the HiGlass view on the right. ",
+    "URL":"http://vis.nucleome.org/v1/main.html?config=/share/mRVrESOfpAxaDKzfiuaOyLWXmMqIgmhu",
+    "session":"nucle_4DN_session_H1_DCIC_higlass.json",
+    "Thumbnail":"nucle_4DN_session_H1_DCIC_higlass.jpg"
+}
