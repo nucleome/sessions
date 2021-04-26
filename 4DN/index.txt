@@ -1,5 +1,5 @@
-zocean/4DN_portal_H1_zocean
-zocean/4DN_portal_H1_DCIC_zocean
-zocean/4DN_portal_H1_HFF_compare_zocean
-zocean/4DN_K562_zocean
-zocean/4DN_K562_w_FISH_zocean
+zocean/4DN_portal_H1
+zocean/4DN_portal_H1_DCIC
+zocean/4DN_portal_H1_HFF_compare
+zocean/4DN_K562
+zocean/4DN_K562_w_FISH
