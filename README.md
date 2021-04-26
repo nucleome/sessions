@@ -1,1 +1,22 @@
-# sessions
+# How to submit your sessions
+
+## Prepare a folder
+This folder is a folder that contains all the information to build a session. The name of the folder should be named in the pattern <session name>_<github id}. We highly recommend using underscore whenever space is used. If this is the first time you submit this session, you should also name this folder with a name that does not exist in the current session list. You can view the current session list at [https://github.com/nucleome/sessions/tree/main/4DN](https://github.com/nucleome/sessions/tree/main/4DN). Each submitter has a folder named by his/her GitHub id. All his/her sessions folder is in this folder. A folder with the name of the existing folder in the repo will overwrite the existing session. 
+
+## Prepare session data
+Inside this folder, you need to prepare three files. The first file is a `meta.json` file representing the meta-information of this session. The second file is a `session.json` file representing the session file you downloaded from the Nucleome Browser. The documentation of sharing and saving session is [here](https://nb-docs.readthedocs.io/en/latest/session.html#). The third file is a `screenshot.jpg` file which shows the screenshot of the session. The details of the `meta.json` file are shown below. 
+
+```
+{
+    "Title":"4DN portal put DCIC visualization tool side-by-side",
+    "Caption":"A custom webpage window is opened on the right. In this example, we open the DCIC visualization tool in this panel. Users can then compare the Nucleome Browser view side-by-side with the HiGlass view on the right. ",
+    "Version":"version 1.0",
+    "Author": "Yang Zhang (CMU)",
+    "Required servers": "/d/portal,http://genome-dev.compbio.cs.cmu.edu:9007" 
+}
+```
+
+A JSON file is a collection of keys and values. This example shows that at least five keys are required for a valid `meta.json` file. **Title** is a short sentence describing the session. **Caption** is the caption that explains the details of this session. It may include details of data, regions of interest, etc. **Version** is the latest version of this session. **Author** is the contributor and affiliation of this session. Finally, **Required servers** is the data servers that this session depends on. For example, the session shown here is constructed using data from `/d/portal` (the default data server contains public 4DN data from the DCIC web portal). `http://genome-dev.compbio.cs.cmu.edu:9007` is a custom data server. Note that for custom data, Nucleome Browser currently only supports HTTP rather than HTTPS. 
+
+## Prepare for a pull-request
+Once you have prepared or the required files/folder, you can submit a pull request. After we process and test your session, your sessions will be shown up in [https://gallery.nucleome.org](https://gallery.nucleome.org)
