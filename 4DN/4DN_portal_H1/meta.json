@@ -1,4 +1,0 @@
-{
-    "title":"4DN portal H1 data example",
-    "Caption":"This example gives a summary of the input and output of SPIN in the H1 cell. On the top is the Hi-C matrix (O/E) followed by SPIN states in H1. The highlighted regions represent Lamina SPIN states, which correlate with both high laminB TSA-seq (purple), laminB DamID (purple), low SON TSA-seq (green), and late fraction within multi-fraction replication timing profiles. The top-right shows a 3D structure of this chromosome with the highlight region representing the highlighted region on the left genome browser panel. The color (red) indicates that these regions have high laminB DamID signals. The second panel on the top left shows the predicted distance to speckles super-imposing on the 3D strcuture. A whole-genome 3D structure is shown on the bottom right."
-}
