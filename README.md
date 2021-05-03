@@ -1,7 +1,7 @@
 # How to submit your sessions
 
 ## Prepare a folder
-You need to prepare a folder that contains all the information to build a session. The name of the folder should be named in the pattern <session name>_<github id}. We highly recommend using underscore whenever space is used. If this is the first time you submit this session, you should also name this folder with a name that does not exist in the current session list. You can view the current session list at [https://github.com/nucleome/sessions/tree/main/4DN](https://github.com/nucleome/sessions/tree/main/4DN). Each submitter has a folder named by his/her GitHub id. All his/her sessions folder is in this folder. A folder with the name of the existing folder in the repo will overwrite the existing session. 
+You need to prepare a folder that contains all the information to build a session. We highly recommend using underscore whenever space is used. You can view the current session list at [https://github.com/nucleome/sessions/tree/main/4DN](https://github.com/nucleome/sessions/tree/main/4DN). Each submitter has a folder named by his/her GitHub id. All his/her sessions folder is in this folder. A folder with the name of an existing folder in the submitter's folder will overwrite (i.e., update) the existing session. 
 
 ## Prepare session data
 Inside this folder, you need to prepare four files. 
