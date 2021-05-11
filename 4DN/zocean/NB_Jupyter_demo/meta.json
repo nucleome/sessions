@@ -1,0 +1,7 @@
+{
+    "Title":"Interactively data analysis in Jupyter notebook using the Nucleome Browser",
+    "Caption":"Go to https://mybinder.org/v2/gh/zocean/NB_Jupyter_demo/main. You should see a live Jupyter notebook served by Binder. Open the Nuclome_browser_link_to_Jupyter_notebook.ipynb and explore the notebook. You can also clone this repo to your local machine. Follow the notebook to view learn to use JavaScript inside jupyter notebook and connect your local Jupyter notebook to the Nucleome Browser using the Chrome extension Nucleome Bridge.",
+    "Version":"1.0",
+    "Author": "Yang Zhang (CMU)",
+    "Required servers": "/d/yang" 
+}
